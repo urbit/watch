@@ -1,0 +1,10 @@
+{
+  "name": "urbit-watch",
+  "version": "0.0.0",
+  "description": "copy files in to your pier from elsewhere",
+  "main": "watch.coffee",
+  "dependencies": {
+    "watch": "~0.11.0"
+  },
+  "author": "galenwp"
+}

@@ -1,0 +1,25 @@
+{
+  "watch": [
+        { "source": "/src/bootstrap/dist/css/",
+          "target": "/src/urbit/arvo/web/lib/css/" },
+        { "source": "/src/urbit-tree/desk/web/tree/",
+          "target": "/src/urbit/arvo/web/tree/" },
+        { "source": "/src/urbit-talk/desk/web/talk/",
+          "target": "/src/urbit/arvo/web/talk/" },
+        { "source": "/src/urbit/arvo/",
+          "target": "/src/urbit/zod/home/" },
+        { "source": "/src/urbit-fora/",
+          "target": "/src/urbit/zod/home/web/" }
+    ],
+  "ignore": [
+    ".DS_Store",
+    ".sass-cache",
+    "node_modules/",
+    "styl",
+    "index.html",
+    "coffee",
+    ".map",
+    "css.min",
+    ".git"
+  ]
+}
